@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mooniko Bloxburg bakery menu — a dreamy navy blue butterfly themed menu featuring Bloxburg foods, quick meals, normal meals, and seasonal specials.">
+  <title>Mooniko | Bloxburg Bakery Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="butterfly butterfly-a" aria-hidden="true">🦋</div>
+  <div class="butterfly butterfly-b" aria-hidden="true">🦋</div>
+
+  <header class="site-header">
+    <a class="brand" href="#">
+      <span class="brand-mark">🦋</span>
+      <span>
+        <strong>Mooniko</strong>
+        <small>BAKERY · SWEETS · DREAMS</small>
+      </span>
+    </a>
+    <nav>
+      <a href="#menu" class="active">Menu</a>
+      <a href="#about">About</a>
+    </nav>
+    <label class="search">
+      <span>⌕</span>
+      <input id="search" type="search" placeholder="Search..." aria-label="Search menu">
+    </label>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <p>THE PASTRY OF</p>
+      <h1>Mooniko</h1>
+      <div class="ornament">✦ <span>Sweet treats made with love</span> ✦</div>
+      <p class="hero-note">Every sweet treat is a little<br>piece of happiness...</p>
+    </section>
+
+    <section id="menu" class="menu-section">
+      <div class="filters" role="tablist" aria-label="Menu categories">
+        <button class="filter active" data-category="all">🦋 <span>All</span></button>
+        <button class="filter" data-category="breakfast">🥞 <span>Breakfast</span></button>
+        <button class="filter" data-category="meals">🍽️ <span>Meals</span></button>
+        <button class="filter" data-category="fastfood">🍔 <span>Quick Meals</span></button>
+        <button class="filter" data-category="bakery">🧁 <span>Bakery</span></button>
+        <button class="filter" data-category="desserts">🍰 <span>Desserts</span></button>
+        <button class="filter" data-category="snacks">🍿 <span>Snacks</span></button>
+        <button class="filter" data-category="drinks">🥤 <span>Drinks</span></button>
+        <button class="filter" data-category="seasonal">🎃 <span>Seasonal</span></button>
+      </div>
+
+      <div class="menu-count"><span id="count">0</span> treats on the menu</div>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="empty" hidden>No treats match your search.</p>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-wing">🦋</div>
+      <h2>A Little World of Sweetness</h2>
+      <p>Welcome to Mooniko, a pastry shop inspired by the night, the stars, and butterfly wings. Take your time, choose your favorite treat, and let yourself be carried away.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>🦋</span>
+    <span>Mooniko</span>
+    <span>♡ Pastry · Sweets · Dreams</span>
+    <span>🦋</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

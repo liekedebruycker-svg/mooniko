@@ -1,0 +1,18 @@
+MOONIKO — PUBLIC WEBSITE SETUP
+
+This is a normal static website and is ready to be uploaded to a web host.
+
+To have a real public URL such as:
+https://mooniko.example.com
+or
+https://www.mooniko.example
+
+you need a web-hosting account and (optionally) a domain name. This chat cannot create a public domain/hosting account or issue a live URL by itself.
+
+For Google:
+1. Upload index.html, style.css, script.js, robots.txt, and sitemap.xml to the site's web root.
+2. Replace YOUR-DOMAIN.example in robots.txt and sitemap.xml with the real domain.
+3. Add the site to Google Search Console and submit sitemap.xml.
+4. Keep the title and description in index.html; these help Google understand the site.
+
+The site itself does not require PHP or a database.
